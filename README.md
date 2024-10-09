@@ -24,19 +24,19 @@ You can concatenate videos in several convenient ways:
 1. **By Clicking on a Folder**
 
 Navigate to the folder containing your video files. Right-click on the folder and select **Concatenate Videos** from the context menu. This option will concatenate all video files within the folder.
-![image info](images/folder.png)
+<img src="images/folder.png" style="height:80%; width:auto">
 
 2. **By Clicking in the Background Inside a Folder**
 
 Open the folder with your video files. Right-click in the background of the folder (not on any specific file) and select **Concatenate Videos**. This will concatenate all video files present in that folder.
-![image info](images/background.png)
+<img src="images/background.png" style="height:80%; width:auto">
 
 3. **By Using the Send To Menu**
 
 Select one or more video files you wish to concatenate. Right-click on the selected files, navigate to **Send to**, and choose **Concatenate Videos**. This method allows you to concatenate the selected videos easily.
-![image info](images/sendto.png)
+<img src="images/sendto.png" style="height:80%; width:auto">
 
-## File Naming Format
+## File naming format
 
 The utility concatenates videos based on their file names, so it is essential to name your input video files in a specific format for correct ordering. For example, use the following naming convention:
 
@@ -56,6 +56,6 @@ This naming scheme will ensure that the video files are concatenated in the corr
 - WMV
 - WEBM
 
-## Why Use the Send To Option or Folder Context Menu
+## Why use the Send to option or Folder Context Menu
 
-Windows does not allow you to pass multiple files directly to a command-line program in a way that the program can handle correctly. If you try to select multiple video files and execute the program directly, Windows will launch separate instances of the program for each file, which is not the intended behavior. By using the **Send To** option or the context menu for a folder, you ensure that all selected files are processed in a single instance of the utility, allowing for accurate concatenation.
+Windows does not allow you to pass multiple files directly to a command-line program in a way that the program can handle correctly. If you try to select multiple video files and execute the program directly, Windows will launch separate instances of the program for each file, which is not the intended behavior. By using the **Send To** option or the context menu for a folder, you ensure that all selected files are processed in a single instance of the utility.
