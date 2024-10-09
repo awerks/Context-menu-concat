@@ -59,4 +59,4 @@ This naming scheme will ensure that the video files are concatenated in the corr
 
 ## Why use the Send to option or Folder Context Menu
 
-Windows does not allow you to pass multiple files directly to a command-line program in a way that the program can handle correctly. If you try to select multiple video files and execute the program directly, Windows will launch separate instances of the program for each file, which is not the intended behavior. By using the **Send To** option or the context menu for a folder, you ensure that all selected files are processed in a single instance of the utility.
+Windows does not allow you to pass multiple files directly to a command-line program in a way that the program can handle correctly. If you try to select multiple video files and execute the program directly, Windows will launch separate instances of the program for each file, which is not the intended behavior. By using the **Send To** option or the context menu for a folder, you ensure that all selected files are processed in a single instance of the program.
