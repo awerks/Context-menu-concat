@@ -6,19 +6,27 @@
 #include <sys/stat.h>
 #include <errno.h>
 #include <time.h>
+#include <ctype.h>
 
 #define MAX_FILES 100
 
+
+char* lowerString(char* s) {
+  for(char *p=s; *p; p++)
+     *p=tolower(*p);
+  return s;
+}
+
 // Function to check if a file has a valid video extension
 int is_video_file(const char *filename) {
-    const char *extension = strrchr(filename, '.');
+    char *extension = strrchr(filename, '.');
     if (!extension) return 0; // No extension
 
     const char *valid_extensions[] = { ".mp4", ".mov", ".mkv", ".avi", ".flv", ".wmv", ".webm" };
     int num_extensions = sizeof(valid_extensions) / sizeof(valid_extensions[0]);
 
     for (int i = 0; i < num_extensions; i++) {
-        if (strcmp(extension, valid_extensions[i]) == 0) {
+        if (strcmp(lowerString(extension), valid_extensions[i]) == 0) {
             return 1; // Valid video file
         }
     }

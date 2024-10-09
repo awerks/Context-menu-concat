@@ -24,10 +24,10 @@ if not exist "%fileDir%\\concat.exe" (
     echo [HKEY_CLASSES_ROOT\Directory\shell\Concatenate Videos\command]
     echo @="%fileDir%\\concat.exe \"%%1\""
     echo [HKEY_CLASSES_ROOT\Directory\shell\Concatenate Videos]
-    echo @="Concatenate this folder"
+    echo @="Concatenate videos in this folder"
     echo "Icon"="%fileDir%\\concat.exe"
     echo [HKEY_CLASSES_ROOT\Directory\Background\shell\Concatenate Videos]
-    echo @="Concatenate files in this folder"
+    echo @="Concatenate videos in the current folder"
     echo "Icon"="%fileDir%\\concat.exe"
     echo [HKEY_CLASSES_ROOT\Directory\Background\shell\Concatenate Videos\command]
     echo @="%fileDir%\\concat.exe \"%%V\""
