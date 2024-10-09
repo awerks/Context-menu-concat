@@ -30,12 +30,14 @@ Navigate to the folder containing your video files. Right-click on the folder an
 2. **By Clicking in the Background Inside a Folder**
 
 Open the folder with your video files. Right-click in the background of the folder (not on any specific file) and select **Concatenate Videos**. This will concatenate all video files present in that folder.
-<img src="images/background.png" style="height:80%; width:auto">
+
+<img src="images/background.png" style="height:50%; width:auto">
 
 3. **By Using the Send To Menu**
 
 Select one or more video files you wish to concatenate. Right-click on the selected files, navigate to **Send to**, and choose **Concatenate Videos**. This method allows you to concatenate the selected videos easily.
-<img src="images/sendto.png" style="height:80%; width:auto">
+
+<img src="images/sendto.png" style="height:50%; width:auto">
 
 ## File naming format
 
