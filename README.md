@@ -24,7 +24,8 @@ You can concatenate videos in several convenient ways:
 1. **By Clicking on a Folder**
 
 Navigate to the folder containing your video files. Right-click on the folder and select **Concatenate Videos** from the context menu. This option will concatenate all video files within the folder.
-<img src="images/folder.png" style="height:80%; width:auto">
+
+<img src="images/folder.png" style="height:50%; width:auto">
 
 2. **By Clicking in the Background Inside a Folder**
 
